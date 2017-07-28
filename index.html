@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Neilson Gamble</title>
+    <meta name="description" content="Stuff Made by Neilson Gamble">
+    <meta name="keywords" content="Neilson,Gamble,Portfolio,Frontend,Development,Web,Design,HTML,CSS,JavaScript,Angular,Photography">
+    <meta name="author" content="Neilson Gamble">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/responsive-nav.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <a href="#home" class="logo" data-scroll>Neilson Gamble</a>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+          <li class="menu-item"><a href="#about" data-scroll>About</a></li>
+          <li class="menu-item"><a href="#dev" data-scroll>Dev</a></li>
+          <li class="menu-item"><a href="#photo" data-scroll>Photo</a></li>
+          <li class="menu-item"><a href="#contact" data-scroll>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="arrow-down">
+        <i class="scroll-indicator fa fa-chevron-down"></i><br>
+        <i class="scroll-indicator fa fa-chevron-down"></i><br>
+        <i class="scroll-indicator fa fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <section id="about">
+       <div id="circle-shape-example">
+        <img src="images/biopic_circle.png" class="curve">
+        <p class="intro">Thanks for stopping by.  I've always wanted to build a simple website 
+          where anyone who is interested can check out my work and learn a little about me.  It 
+          will be a constant work in progress, so if you are really bored, be sure to come back 
+          and check in on me.
+        </p>
+        <ul class="aboutme">
+          <li class="aboutme-items">Some things about me...</li><br>
+          <li class="aboutme-items"><span class="years">1987 </span>&nbsp&nbsp Born and raised in Charlotte, NC</li>
+          <li class="aboutme-items"><span class="years">2006 </span>&nbsp&nbsp Enrolled at The University of Georgia (go dawgs)</li>
+          <li class="aboutme-items"><span class="years">2008 </span>&nbsp&nbsp Majored in business, learned about money</li>
+          <li class="aboutme-items"><span class="years">2010 </span>&nbsp&nbsp Moved to Atlanta to become an investment banker</li>
+          <li class="aboutme-items"><span class="years">2012 </span>&nbsp&nbsp Moved to Jackson, Wyoming looking for change and to learn how to ski.  Became a decent skier / fly fisherman / mountain biker at best (but still loves doing any of it more than ever).  Unable to escape my love of excel and double monitors, took job at small wealth management office.</li>
+          <li class="aboutme-items"><span class="years">2015 </span>&nbsp&nbsp Needing yet another change (and more excel), took job as an analyst for small community bank.</li>
+          <li class="aboutme-items"><span class="years">2016 </span>&nbsp&nbsp Realizing my propensity for automation using Excel/VBA, began exploring the world of coding.  Taught myself entry-level HTML, CSS and some Javascript.</li>
+          <li class="aboutme-items"><span class="years">2018 </span>&nbsp&nbsp Took another leap of faith, this time with my career, and enrolled in a coding bootcamp. A few months later moved back to Charlotte, where I spent three months attending an immersive frontend web development program at The Iron Yard.</li>
+        </ul>
+      </div> 
+    </section>
+
+    <section class="blank"></section>
+
+    <section id="dev">
+      <h1>Development Portfolio</h1>
+        <div class="scrollmenu">
+          <div class="projects" id="servd"></div>
+          <div class="projects" id="crazy-taxi"></div>
+          <div class="projects" id="gitactive"></div>
+          <div class="projects" id="chirp"></div>
+          <div class="projects" id="ispin"></div>
+          <div class="projects" id="restaurant"></div>
+        </div>
+    </section>
+
+    <section class="blank"></section>
+
+    <section id="photo">
+      <h1>Photography Portfolio</h1>
+        <div class="scrollmenu">
+          <div class="galleries" id="cat1"></div>
+          <div class="galleries" id="cat2"></div>
+          <div class="galleries" id="cat3"></div>
+          <div class="galleries" id="cat4"></div>
+          <div class="galleries" id="cat5"></div>
+          <div class="galleries" id="cat6"></div>
+        </div>
+    </section>
+
+    <section class="blank"></section>
+
+    <section id="contact">
+      <h1>Get at me!</h1>
+    </section>
+    
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+  </body>
+</html>
