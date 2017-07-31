@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Handlee|Roboto:100,300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Stint+Ultra+Expanded|Handlee|Roboto:100,300,400,500" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/responsive-nav.js"></script>
     <script src="js/app.js"></script>
@@ -49,12 +49,12 @@
           <li class="aboutme-items">Some things about me...</li><br>
           <li class="aboutme-items"><span class="years">1987 </span>&nbsp&nbsp Born and raised in Charlotte, NC</li>
           <li class="aboutme-items"><span class="years">2006 </span>&nbsp&nbsp Enrolled at The University of Georgia (go dawgs)</li>
-          <li class="aboutme-items"><span class="years">2008 </span>&nbsp&nbsp Majored in business, learned about money</li>
-          <li class="aboutme-items"><span class="years">2010 </span>&nbsp&nbsp Moved to Atlanta to become an investment banker</li>
-          <li class="aboutme-items"><span class="years">2012 </span>&nbsp&nbsp Moved to Jackson, Wyoming looking for change and to learn how to ski.  Became a decent skier / fly fisherman / mountain biker at best (but still loves doing any of it more than ever).  Unable to escape my love of excel and double monitors, took job at small wealth management office.</li>
-          <li class="aboutme-items"><span class="years">2015 </span>&nbsp&nbsp Needing yet another change (and more excel), took job as an analyst for small community bank.</li>
-          <li class="aboutme-items"><span class="years">2016 </span>&nbsp&nbsp Realizing my propensity for automation using Excel/VBA, began exploring the world of coding.  Taught myself entry-level HTML, CSS and some Javascript.</li>
-          <li class="aboutme-items"><span class="years">2018 </span>&nbsp&nbsp Took another leap of faith, this time with my career, and enrolled in a coding bootcamp. A few months later moved back to Charlotte, where I spent three months attending an immersive frontend web development program at The Iron Yard.</li>
+          <li class="aboutme-items"><span class="years">2008 </span>&nbsp&nbsp Majored in business / finance</li>
+          <li class="aboutme-items"><span class="years">2010 </span>&nbsp&nbsp Moved to Atlanta to work for an investment bank</li>
+          <li class="aboutme-items"><span class="years">2012 </span>&nbsp&nbsp Quit job and moved to Jackson, Wyoming looking for change and to learn how to ski</li>
+          <li class="aboutme-items"><span class="years">2015 </span>&nbsp&nbsp Unable to escape my love of excel and double monitors, took job at brokerage firm and later a small commuity bank (but still got to ski!)</li>
+          <li class="aboutme-items"><span class="years">2016 </span>&nbsp&nbsp Realizing my propensity for automation using Excel/VBA, began exploring the world of coding.  Taught myself entry-level HTML, CSS and some Javascript</li>
+          <li class="aboutme-items"><span class="years">2017 </span>&nbsp&nbsp Took another leap of faith, this time with my career, and enrolled in a coding bootcamp. A few months later moved back to Charlotte, where I spent three months attending an immersive frontend web development program at The Iron Yard</li>
         </ul>
       </div> 
     </section>
@@ -63,13 +63,70 @@
 
     <section id="dev">
       <h1>Development Portfolio</h1>
-        <div class="scrollmenu">
-          <div class="projects" id="servd"></div>
-          <div class="projects" id="crazy-taxi"></div>
-          <div class="projects" id="gitactive"></div>
-          <div class="projects" id="chirp"></div>
-          <div class="projects" id="ispin"></div>
-          <div class="projects" id="restaurant"></div>
+        <div id="container">
+            <div id="parent">
+                <div class="contentBlock" id="servd">
+                  <h2>serv'd</h2>
+                  <p class="description">A share economy app that connects people through home-cooked meals.
+Designed to match people who are cooking extra portions of food with people who are looking for a more 
+affordable, healthier and / or convenient alternative to eating out.</p>
+                  <p class="tech"><span class="bold">BUILT WITH</span>  |  AngularJS, Gulp, Sass, Foundation Grid, Surge, Google Maps API and MomentJS</p>
+                  <div class="app_code">
+                      <a target="_blank" href="http://servd.surge.sh"><h3>app</h3></a>
+                      <a target="_blank" href="https://github.com/neilgamb/servd"><h3>< /code ></h3></a>
+                  </div>
+                </div>
+
+                <div class="contentBlock" id="crazy-taxi">
+                  <h2>CRAZY TAXI</h2>
+                  <p class="description">A taxi driver simulation game that challenges players to pick up and drop off randomly generated passengers around a grid-style map using the lowest possible moves (gallons of gas).</p>
+                  <p class="tech"><span class="bold">BUILT WITH</span>  |  AmpersandJS, Gulp, Sass and Foundation Grid</p>
+                  <div class="app_code">
+                      <a target="_blank" href=http://crazytaxi.surge.sh/><h3>app</h3></a>
+                      <a target="_blank" href="https://github.com/neilgamb/crazytaxi"><h3>< /code ></h3></a>
+                  </div>
+                </div>
+
+                <div class="contentBlock" id="gitactive">
+                  <h2>Gitactive</h2>
+                  <p class="description">Search engine that displays Github profile commit data by week and by month.</p>
+                  <p class="tech"><span class="bold">BUILT WITH</span>  |  AngularJS, Github API, Gulp, Sass and Foundation Grid</p>
+                  <div class="app_code">
+                      <a target="_blank" href="http://gitactive.surge.sh/"><h3>app</h3></a>
+                      <a target="_blank" href="https://github.com/neilgamb/gitactive"><h3>< /code ></h3></a>
+                  </div>
+                </div>
+
+                <div class="contentBlock" id="chirp">
+                  <h2>chirp</h2>
+                  <p class="description">A chat simulation app that uses Heroku for the central server / API</p>
+                  <p class="tech"><span class="bold">BUILT WITH</span>  |  Javascript, Heroku, Sass and Foundation Grid</p>
+                  <div class="app_code">
+                      <a target="_blank" href="http://chirp.surge.sh/"><h3>app</h3></a>
+                      <a target="_blank" href="https://github.com/neilgamb/chirp"><h3>< /code ></h3></a>
+                  </div>
+                </div>
+
+                <div class="contentBlock" id="iSpin">
+                  <h2>iSpin</h2>
+                  <p class="description">A music playlist simulation (no audio sorry!) that includes play-stop animation and a 'favorites' feature</p>
+                  <p class="tech"><span class="bold">BUILT WITH</span>  |  AngularJS, font-awesome, Gulp, Sass and Foundation Grid</p>
+                  <div class="app_code">
+                      <a target="_blank" href="http://ispin.surge.sh/"><h3>app</h3></a>
+                      <a target="_blank" href="https://github.com/neilgamb/ispin"><h3>< /code ></h3></a>
+                  </div>
+                </div>
+
+                <div class="contentBlock" id="restaurant">
+                  <h2>Restaurant</h2>
+                  <p class="description">A food service application that offers menu and ordering functionality to patrons as well as kitchen mangement services to restaurants.</p>
+                  <p class="tech"><span class="bold">BUILT WITH</span>  |  Javascript, Heroku, Gulp, Sass and Foundation Grid</p>
+                  <div class="app_code">
+                      <a target="_blank" href="http://afraid-north.surge.sh/"><h3>app</h3></a>
+                      <a target="_blank" href="https://github.com/neilgamb/restaurant"><h3>< /code ></h3></a>
+                  </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -77,6 +134,25 @@
 
     <section id="photo">
       <h1>Photography Portfolio</h1>
+        <div id="container">
+            <div id="parent">
+                <div class="contentBlock" id="cat_name">
+                  <h2>Coming Soon!</h2>
+                </div>
+                <div class="contentBlock" id="cat_name">
+                  <h2>Coming Soon!</h2>
+                </div>
+                <div class="contentBlock" id="cat_name">
+                  <h2>Coming Soon!</h2>
+                </div>
+                <div class="contentBlock" id="cat_name">
+                  <h2>Coming Soon!</h2>
+                </div>
+                <div class="contentBlock" id="cat_name">
+                  <h2>Coming Soon!</h2>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="blank"></section>

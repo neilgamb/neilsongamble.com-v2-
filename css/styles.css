@@ -157,13 +157,12 @@ p {
 --------------------------------------------- */
 
 header {
-  background: transparent;
+  /* background: transparent; */
   position: fixed;
   z-index: 3;
   width: 100%;
   left: 0;
   top: 0;
-  background-color: transparent;
   transition: all 2s ease-in-out;
 
 }
@@ -173,10 +172,9 @@ header {
 }
 
 header.active {
-  background: #302e2c;
+    background: #302e2c;  
 
 }
-
 
 .logo {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -186,6 +184,11 @@ header.active {
   color: #fff;
   float: left;
   font-size: 2rem;
+  font-weight: bold;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 
@@ -280,11 +283,10 @@ header.active {
   float: left;
 }
 
-.nav-collapse a:active,
+ .nav-collapse a:active,
 .nav-collapse .active a {
-  background: black;
-  opacity: .6;
-}
+  font-weight: bold;
+} 
 
 @media screen and (min-width: 40em) {
   .nav-collapse a {
@@ -412,44 +414,134 @@ header.active {
   shape-outside:circle();
 }
 
-.active {
-    background: #fff; 
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+/* Horizontal scrolls  */
+#container{
+    /* width:600px; */
+    overflow-x: auto;
 }
 
-
-/* Horizontal scrolls  */
-div.scrollmenu {
-    /* background-color: #333; */
-    overflow: auto;
+#parent {
+    width:6000px;
     white-space: nowrap;
 }
-
-div.scrollmenu div {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    width: 40vw;
-    height: 400px;
-    border: solid 1px;
+.contentBlock {
+    /* font-size:10em; */
+    text-align:center;
+    /* line-height:400px; */
+    height:400px;
+    width:400px;
+    /* padding: 10px; */
+    margin:10px; 
+    padding: 20px;
+    text-align: left;
+    /* padding: 10px; */
+     /* border:1px solid black;  */
+    float:left;
+    position: relative;
 }
 
-@media (max-width: 1000px){
-  div.scrollmenu div {
-      width: 50vw;
-  }
+.contentBlock h2 {
+  font-size: 2.2rem;
 }
 
-@media (max-width: 600px){
-  div.scrollmenu div {
-      width: 70vw;
-  }
+.description {
+  white-space: normal;
+  margin-top: 20px;
 }
 
-div.scrollmenu div:hover {
-    background-color: #777;
+.tech {
+  white-space: normal;
+  margin-top: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.app_code {
+  margin-top: 20px;
+  position: absolute;
+  bottom: 25px;
+}
+
+.app_code a {
+  border: solid 1px;
+  color: white;
+  padding: 5px 20px;
+}
+
+.app_code a:hover {
+  color: #302e2c;
+  background-color: white;
+  border: none;
+}
+
+ h3 {
+  /* width: 80px; */
+  display: inline-block;
+} 
+
+h1 {
+  margin-left: 10px;
+}
+
+#servd h2 {
+  font-family: 'Handlee';
+  font-size: 2.5rem;
+}
+
+#parent div:hover {
+-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+filter: grayscale(0%);
+}
+
+#servd {
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+background: #6b878c; /* Old browsers */
+background: -moz-linear-gradient(45deg, #6b878c 0%, #92b8bf 50%, #b5e4ec 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #6b878c 0%,#92b8bf 50%,#b5e4ec 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #6b878c 0%,#92b8bf 50%,#b5e4ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b878c', endColorstr='#b5e4ec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#gitactive {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  background-color: #768D87;
+}
+
+#gitactive h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#crazy-taxi {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  background-color: #D4AC0D;
+}
+
+#crazy-taxi h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 3rem;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+#chirp {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  background-color: #B9CDDA;
+}
+
+#iSpin {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  background-color: #212F3D;
+}
+
+#restaurant {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  background-color: #196F3D;
 }
