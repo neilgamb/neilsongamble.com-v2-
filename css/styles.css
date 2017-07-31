@@ -89,15 +89,19 @@ section {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
   text-align: justify;
   padding: 30px;
   height: 100%;
-  /* width: 100vw; */
 }
 
  #about, #dev, #photo, #contact {
-   background: #a5a5a5;
+  background: url(../images/background_dark.jpg) no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .9;
 } 
 
 #home {
@@ -135,7 +139,7 @@ section {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
 }
 
 h1 {
@@ -409,7 +413,7 @@ header.active {
 }
 
 .active {
-    background: #fff;
+    background: #fff; 
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -449,4 +453,3 @@ div.scrollmenu div {
 div.scrollmenu div:hover {
     background-color: #777;
 }
-
