@@ -477,7 +477,6 @@ a:hover {
 }
 
  h3 {
-  /* width: 80px; */
   display: inline-block;
 } 
 
@@ -523,7 +522,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b878c', end
 
 #crazy-taxi h2 {
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 3rem;
   word-spacing: 10px;
   letter-spacing: 5px;
 }
@@ -545,3 +543,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b878c', end
   filter: grayscale(100%);
   background-color: #196F3D;
 }
+
+#cat_name h2 {
+  line-height: 400px
+}
+
+/* contact info  */
+
+.contact_links {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.contact_links a {
+  color: white;
+  border: solid 1px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 40px;
+  text-decoration: none;
+  opacity: .5;
+}
+
+.contact_links a:hover {
+  color: #302e2c;
+  background-color: white;
+  opacity: 1;
+}
+
+.contact_links .fa {
+  display: block;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+#last {
+  height: 300px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+.contentBlock {width: 300px;}
+#parent div {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  }
+}
+
+ @media only screen and (max-width: 600px) {
+.contentBlock{width: 200px};
+#parent div {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  }
+.contact_links {
+  flex-direction: column;
+  margin-top: 20px;
+}
+.contact_links a {
+  margin-top: 20px;
+}
+} 
