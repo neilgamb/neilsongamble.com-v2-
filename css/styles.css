@@ -591,6 +591,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b878c', end
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
   }
+.blank {
+  background-image: none;
+  background-color: #302e2c;
+  height: 100px;
+}
 }
 
  @media only screen and (max-width: 600px) {
@@ -601,9 +606,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b878c', end
   }
 .contact_links {
   flex-direction: column;
-  margin-top: 20px;
+  margin: 20px 50px;
 }
 .contact_links a {
   margin-top: 20px;
 }
+section {
+  background-size: 170vh; 
+}
+.blank {
+  background-image: none;
+  background-color: #302e2c;
+}
 } 
+
